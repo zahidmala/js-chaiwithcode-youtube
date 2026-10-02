@@ -1,0 +1,18 @@
+/*
+1) String
+2) Number --> agar length 2 se 53 ho agar usse bri ho to -----> bigint use karenge
+3) Boolean --> True / False
+4) null --> standalone value
+5) undefined --> not define any value in varible so return this
+6) symbol --> unique value
+7) object
+
+typeof --> kisi varible ki ya value ki datatype maloom karni hoto ye use hota hai neche example mojod hai
+*/
+let userId = 1001;
+let userName = "zahid";
+let flag = false;
+let remarks;
+
+console.table([userId, userName, flag, remarks]);
+console.table([typeof userId, typeof userName, typeof flag, typeof remarks, typeof null]);
